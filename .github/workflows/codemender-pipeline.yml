@@ -61,7 +61,7 @@ env:
   CM_BUNDLED: lab/bin/cm-linux
   # How many of the top-ranked HIGH/CRITICAL findings to auto-remediate in one
   # run (all land in a single PR). Set to 1 for a minimal single-fix lab.
-  CM_FIX_LIMIT: "3"
+  CM_FIX_LIMIT: "2"
 
 jobs:
   codemender-security:
